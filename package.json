@@ -6,7 +6,8 @@
   "module": "dist/react-chartkick.esm.js",
   "scripts": {
     "build": "rollup -c",
-    "lint": "eslint src"
+    "lint": "eslint src",
+    "prepare": "rollup -c"
   },
   "license": "MIT",
   "peerDependencies": {
